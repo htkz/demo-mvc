@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/loading.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+        <link rel="stylesheet" href="css/swiper.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+        <script src="js/swiper.js"></script>
+    </head>
+    <body>
+        <div class="welcome-loading show">
+            <div class="loading"></div>
+        </div>
+        <div id="topNavBar" class="topNavBar">
+            <div class="wraper clearfix">
+                <a href="#" class="brand">
+                    <span class="rs">RS</span><span class="card">card</span>
+                </a>
+                <nav class="clearfix">
+                    <li><a href="#user-card">关于</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li>
+                        <a href="#portfolio">作品</a>
+                        <ul class="sub-menu">
+                            <li>作品1</li>
+                            <li>作品2</li>
+                            <li>作品3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">博客</a>
+                        <ul class="sub-menu">
+                            <li>博客1</li>
+                            <li>博客2</li>
+                            <li>博客3</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">日历</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">其他</a></li>
+                </nav>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="mask">
+            </div>
+        </div>
+        <div data-highlight id="user-card" class="user-card slideAppear">
+            <div class="profile clearfix">
+                <div class="avatar">
+                    <img src="./img/cryq.jpg" alt="">
+                </div>
+                <div class="text">
+                    <span class="hello">
+                        Hello
+                        <span class="triangle"></span>
+                    </span>
+                    <h1>孙默</h1>
+                    <p>前端开发工程师</p>
+                    <hr>
+                    <dl>
+                        <dt>年龄</dt>
+                        <dd>20</dd>
+                        <dt>地址</dt>
+                        <dd>北京</dd>
+                        <dt>邮箱</dt>
+                        <dd>htkzmo@gmail.com</dd>
+                        <dt>电话</dt>
+                        <dd>+1 7038140030</dd>
+                        <dt>毕业院校</dt>
+                        <dd>明光村中学</dd>
+                    </dl>
+                </div>
+            </div>
+            <footer class="contact">
+                <div class="icon">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-weixin" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-weibo" aria-hidden="true"></i>
+                </div>
+            </footer>
+        </div>
+        <div class="download">
+            <a href="#">DOWNLOAD RESUME</a>
+            <!-- <a href="#">下载简历</a> -->
+        </div>
+        <div class="selfIntro" style="font-family: kai;">
+             孙默，小白前端，目前大四，正在努力奋斗争取找到工作。
+             <br>
+             技能：前端开发，Node.js开发，django开发。
+        </div>
+        <div data-highlight id="skills" class="skills slideAppear">
+            <header>
+                <h2>Professional Skills</h2>
+            </header>
+            <div class="content">
+                <ul>
+                    <li>
+                        <p>WordPress</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:80%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>HTML & CSS</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:90%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:60%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>PHP & MySQL</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:95%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Drupal</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:70%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Photoshop</p>
+                        <div class="bar">
+                            <div class="realBar" style="width:92%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-highlight id="portfolio" class="portfolio slideAppear">
+            <header>
+                <h2>Portfolio</h2>
+            </header>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <img src="img/design-engine.jpg" class="swiper-slide">
+                    <img src="img/nav.jpg" class="swiper-slide">
+                    <img src="img/canvas.jpg" class="swiper-slide">
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+	    <div style="display: none;"></div>
+
+        <script src="js/loading-success.js"></script>
+        <script src="js/sticky-topbar.js"></script>
+        <script src="js/slide-up-appear.js"></script>
+        <script src="js/topbar-nav.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
